@@ -1,222 +1,146 @@
 # IDAI207-2305396-YuvrajSoni-2205893-AaravNair-2011143-DarshPatel-2305402-AzmahTheba
 
-# **Ripcord Game Repository Structure**
+# **Ripcord Game Repository**
 
-## **Directory Structure:**
-```
-Ripcord-Game/
-│-- assets/
-│   │-- images/
-│   │   │-- characters/
-│   │   │   │-- alpha_idle.png
-│   │   │   │-- alpha_run.png
-│   │   │   │-- alpha_jump.png
-│   │   │   │-- enemies/
-│   │   │   │   │-- enemy1.png
-│   │   │   │   │-- enemy2.png
-│   │   │-- environment/
-│   │   │   │-- background.png
-│   │   │   │-- platforms.png
-│   │-- audio/
-│   │   │-- music/
-│   │   │   │-- background_theme.mp3
-│   │   │   │-- level_complete.mp3
-│   │   │-- sfx/
-│   │   │   │-- jump.wav
-│   │   │   │-- collect.wav
-│   │   │   │-- hit.wav
-│-- src/
-│   │-- main.py
-│   │-- settings.py
-│   │-- game.py
-│   │-- player.py
-│   │-- enemy.py
-│   │-- level.py
-│   │-- ui.py
-│   │-- particles.py
-│   │-- foliage.py
-│   │-- anim_loader.py
-│   │-- spritesheet_loader.py
-│   │-- text.py
-│   │-- grass.py
-│-- levels/
-│   │-- level1.json
-│   │-- level2.json
-│   │-- level3.json
-│-- docs/
-│   │-- README.md
-│   │-- CONTRIBUTING.md
-│   │-- LICENSE
-│-- tests/
-│   │-- test_player.py
-│   │-- test_enemy.py
-│   │-- test_level.py
-│-- requirements.txt
-│-- .gitignore
-│-- setup.py
-```
+## **Project Title and Description**
+### **Ripcord - A 2D Platformer with an Anger Bar Mechanic**
 
-## **Detailed Description of Each Directory and File:**
+*Ripcord* is an engaging and challenging 2D platformer game where players must navigate levels, collect items, and battle enemies while managing an "anger bar." This unique mechanic introduces a sense of urgency, making every decision crucial. Inspired by classic platformers like *Cut the Rope*, *Ripcord* combines fast-paced gameplay with strategic resource management to create an immersive gaming experience.
 
-### **1. assets/**
-Contains all game assets, including images, audio, and animations.
-
-#### **- images/**
-Stores visual assets for the game, categorized into:
-- **characters/**: Player character (Alpha) and enemies.
-- **environment/**: Background, platforms, and other visual elements.
-
-#### **- audio/**
-Contains sound files for:
-- **music/**: Background themes and level completion sounds.
-- **sfx/**: Sound effects for jumps, attacks, enemy hits, and collectibles.
+### **Objectives**
+- Develop a fun and strategic 2D platformer.
+- Implement an innovative anger bar mechanic to drive player decisions.
+- Provide an engaging, well-balanced difficulty curve.
+- Optimize performance for smooth gameplay.
+- Design visually appealing environments with interactive elements.
 
 ---
 
-### **2. src/**
-Main game logic and Python scripts.
-
-#### **- main.py**
-- Entry point of the game.
-- Initializes the game engine and loads assets.
-
-#### **- settings.py**
-- Stores game settings such as screen resolution, frame rate, and sound levels.
-
-#### **- game.py**
-- Handles game loops, physics, and main logic.
-
-#### **- player.py**
-- Defines the player character, including movement, animations, and interactions.
-
-#### **- enemy.py**
-- Manages enemy AI, movement, and attack behavior.
-
-#### **- level.py**
-- Handles level loading, obstacles, and platform generation.
-
-#### **- ui.py**
-- Manages in-game user interface elements, such as the anger bar and score display.
-
-#### **- particles.py**
-- Handles particle effects, including sparks, explosions, and environmental animations.
-
-#### **- foliage.py**
-- Manages animated foliage elements.
-
-#### **- anim_loader.py**
-- Loads and manages animations for characters and environment objects.
-
-#### **- spritesheet_loader.py**
-- Handles spritesheet loading and parsing for rendering.
-
-#### **- text.py**
-- Renders in-game text and UI elements.
-
-#### **- grass.py**
-- Manages procedural grass movement and rendering.
+## **Features**
+- **Anger Bar Mechanic**: The player’s anger meter continuously depletes unless lollipops are collected.
+- **Dynamic Level Progression**: Increasingly complex level designs encourage skill growth.
+- **Enemy AI & Combat**: Enemies dynamically interact with the player and respond to actions.
+- **Physics-Based Movements**: Gravity, jump physics, and smooth acceleration.
+- **Collectibles & Power-ups**: Lollipops replenish the anger bar, while other collectibles enhance gameplay.
+- **Animated Environments**: Trees, grass, and clouds react to player interactions.
+- **Smooth Player Controls**: Optimized key bindings for fluid movement and combat.
+- **Audio-Visual Enhancements**: High-quality sound effects, music, and animations for immersive gameplay.
 
 ---
 
-### **3. levels/**
-- JSON files that define level layouts, including:
-  - Platform positions.
-  - Enemy spawn points.
-  - Collectible placements.
-  - Level objectives.
+## **Technologies Used**
+
+### **Programming Languages & Libraries**
+- **Python**: Core programming language.
+- **Pygame**: Primary game engine for rendering and logic.
+- **Arcade**: Simplifies 2D game development.
+- **Pyglet**: Handles multimedia (images, animations, and sound).
+
+### **Graphics & Animations**
+- **Custom Spritesheets**: Created using Photoshop and Aseprite.
+- **Spritesheet Loader**: Efficiently loads and manages animations.
+- **Procedural Grass & Foliage Animation**: Dynamic environmental interactions.
+
+### **Sound & Music**
+- **Pygame Mixer**: Manages background music and in-game sound effects.
+- **Custom Sound Design**: Recorded and mixed using Audacity.
+
+### **Level Design & Storage**
+- **Tile-Based Level Maps**: Stored in JSON format for easy modifications.
+- **Procedural Object Placement**: Grass, trees, and background elements adapt dynamically.
 
 ---
 
-### **4. docs/**
-Contains documentation for the project.
-
-#### **- README.md**
-- Overview of the project.
-- Installation and usage instructions.
-
-#### **- CONTRIBUTING.md**
-- Guidelines for contributors, including coding standards and issue reporting.
-
-#### **- LICENSE**
-- Specifies the game’s licensing terms.
-
----
-
-### **5. tests/**
-Unit tests to ensure game stability and performance.
-
-#### **- test_player.py**
-- Tests player movement, jumping, and interactions.
-
-#### **- test_enemy.py**
-- Tests enemy AI, behavior, and attack patterns.
-
-#### **- test_level.py**
-- Tests level loading and environment interactions.
-
----
-
-### **6. requirements.txt**
-Lists all dependencies required to run the game, such as:
-```
-pygame==2.1.2
-arcade==2.6.10
-pyglet==1.5.21
-```
----
-
-### **7. .gitignore**
-Specifies files and directories to exclude from version control (e.g., temporary files, logs, and compiled binaries).
-
----
-
-### **8. setup.py**
-- Script to package the game for installation and distribution.
-- Defines dependencies and entry points.
-
----
-
-## **Version Control & Collaboration**
-- The repository follows **GitHub Flow** for collaboration.
-- Branch structure:
-  - **main**: Stable release versions.
-  - **dev**: Active development branch.
-  - **feature/**: Branches for new features.
-  - **bugfix/**: Branches for fixing reported issues.
-- **Pull Requests (PRs)** required for merging changes into the main branch.
-
----
-
-## **Contribution Guidelines**
-- Code should follow **PEP 8** standards.
-- Commits should be structured as:
-  ```
-  feat: Added new enemy AI behavior
-  fix: Resolved collision detection issue
-  refactor: Optimized level loading function
-  ```
-- Issues should be reported in GitHub’s **Issues** section with labels like **bug**, **enhancement**, **documentation**.
-
----
-
-## **Deployment & Running Instructions**
-
-### **1. Clone the repository:**
+## **Installation Instructions**
+### **Step 1: Clone the Repository**
 ```sh
 git clone https://github.com/yourusername/Ripcord-Game.git
 cd Ripcord-Game
 ```
 
-### **2. Create a virtual environment and install dependencies:**
+### **Step 2: Set Up a Virtual Environment & Install Dependencies**
 ```sh
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### **3. Run the game:**
+### **Step 3: Run the Game**
 ```sh
 python src/main.py
 ```
+
+---
+
+## **Usage Instructions**
+
+### **Gameplay Controls**
+- **Move Left:** `A` or `Left Arrow`
+- **Move Right:** `D` or `Right Arrow`
+- **Jump:** `Space` or `Up Arrow`
+- **Attack:** `X`
+- **Pause:** `Esc`
+
+### **How to Play**
+1. **Start the Game:** The player controls Alpha, the main character.
+2. **Monitor the Anger Bar:** Keep it from depleting by collecting lollipops.
+3. **Navigate Levels:** Jump across platforms, dodge obstacles, and fight enemies.
+4. **Defeat Enemies:** Use attacks strategically while maintaining movement.
+5. **Complete Levels:** Reach the designated goal with a balanced anger meter.
+
+---
+
+## **Contribution Guidelines**
+We encourage contributions from the community! Follow these steps to contribute:
+
+### **Step 1: Fork the Repository**
+Create a fork on GitHub to make your modifications without affecting the main branch.
+
+### **Step 2: Create a Feature Branch**
+```sh
+git checkout -b feature-new-enhancement
+```
+
+### **Step 3: Make Changes & Commit**
+Follow best practices when committing code:
+```sh
+git commit -m "feat: Added new enemy AI behavior"
+```
+
+### **Step 4: Push Changes & Create a Pull Request**
+```sh
+git push origin feature-new-enhancement
+```
+Submit a **Pull Request (PR)** for review, ensuring you provide a clear description of changes.
+
+### **Code Standards**
+- Follow **PEP 8** for Python code formatting.
+- Use meaningful commit messages.
+- Submit well-documented code with comments where necessary.
+
+---
+
+## **Acknowledgments**
+- **Pygame & Arcade**: Powerful libraries that made development smoother.
+- **Open-Source Community**: Contributions from various forums helped troubleshoot issues.
+- **Game Testers & Developers**: Everyone who contributed to testing and refining *Ripcord*.
+- **Sound Designers & Artists**: For creating immersive audio-visual elements.
+
+---
+
+## **Screenshots/Demos**
+### **Main Menu**
+![Main Menu](screenshots/main_menu.png)
+
+
+![Gameplay](screenshots/gameplay.png)
+
+### **Level Completion Screen**
+![Level Complete](screenshots/level_complete.png)
+
+### **Enemy Encounter**
+![Enemy Encounter](screenshots/enemy_encounter.png)
+
+---
 
 
