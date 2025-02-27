@@ -2,8 +2,6 @@
 
 # **Ripcord Game Repository Structure**
 
-## **Repository Name: Ripcord-Game**
-
 ## **Directory Structure:**
 ```
 Ripcord-Game/
