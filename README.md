@@ -132,11 +132,12 @@ Submit a **Pull Request (PR)** for review, ensuring you provide a clear descript
 ### **Main Menu**
 ![Main Menu](screenshots/main_menu.png)
 
-
+  
 ![Gameplay](screenshots/gameplay.png)
 
 ### **Level Completion Screen**
-![Level Complete](screenshots/level_complete.png)
+![Level Complete](![Screenshot 2025-01-05 191740](https://github.com/user-attachments/assets/b8195d54-ed03-4e32-93bd-a6c703985fdf)
+)
 
 ### **Enemy Encounter**
 ![Enemy Encounter](screenshots/enemy_encounter.png)
