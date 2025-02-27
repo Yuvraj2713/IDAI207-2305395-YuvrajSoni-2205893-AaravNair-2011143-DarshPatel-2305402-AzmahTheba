@@ -130,17 +130,16 @@ Submit a **Pull Request (PR)** for review, ensuring you provide a clear descript
 
 ## **Screenshots/Demos**
 ### **Main Menu**
-![Main Menu](screenshots/main_menu.png)
-
-  
-![Gameplay](screenshots/gameplay.png)
-
-### **Level Completion Screen**
-![Level Complete](![Screenshot 2025-01-05 191740](https://github.com/user-attachments/assets/b8195d54-ed03-4e32-93bd-a6c703985fdf)
+!(![Screenshot 2025-01-05 191655](https://github.com/user-attachments/assets/b6c92882-797a-47f7-9f69-e7048f89e673)
 )
 
+### **Level Completion Screen**
+![Screenshot 2025-01-05 191740](https://github.com/user-attachments/assets/b8195d54-ed03-4e32-93bd-a6c703985fdf)
+
+
 ### **Enemy Encounter**
-![Enemy Encounter](screenshots/enemy_encounter.png)
+!(![Screenshot 2025-01-05 192603](https://github.com/user-attachments/assets/ae6e5763-3ab0-4e10-ac1e-67a99a8f6d0c)
+)
 
 ---
 
