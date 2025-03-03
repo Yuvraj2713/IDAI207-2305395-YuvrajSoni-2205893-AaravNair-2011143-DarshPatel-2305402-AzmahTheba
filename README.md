@@ -52,23 +52,15 @@
 ---
 
 ## **Installation Instructions**
-### **Step 1: Clone the Repository**
-```sh
-git clone https://github.com/yourusername/Ripcord-Game.git
-cd Ripcord-Game
-```
 
-### **Step 2: Set Up a Virtual Environment & Install Dependencies**
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+How to play the game:
 
-### **Step 3: Run the Game**
-```sh
-python src/main.py
-```
+
+1) Download the drive link provided: https://drive.google.com/drive/folders/19LxOYJiQIbC927H0OItksFqh3MFzb4WM?usp=sharing
+2) Do not remove the game from the folder downloaded as the code files are connected to the game. Removing the game from the folder will cause to stop functioning.
+3) Run the game from the folder.
+
+
 
 ---
 
@@ -142,5 +134,15 @@ Submit a **Pull Request (PR)** for review, ensuring you provide a clear descript
 )
 
 ---
+
+## References
+- https://wiki.python.org/moin/PythonGameLibraries
+- https://realpython.com/top-python-game-engines/
+- https://opensource.com/article/18/4/easy-2d-game-creation-python-and-arcade
+- https://dev.to/lovelacecoding/how-to-build-your-first-python-game-a-step-by-step-guide-to-creating-a-simple-shooter-with-pygame-f0k
+- https://medium.com/@sjalexandre/python-tutorial-game-development-fundamentals-21a6575e0e30
+
+
+
 
 
